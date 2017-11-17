@@ -5,6 +5,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(analogRead(A0));
+  Serial.println(digitalRead(A0));
 }
 
